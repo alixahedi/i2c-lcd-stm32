@@ -38,11 +38,11 @@ This is a simple and efficient I2C LCD library for STM32 microcontrollers, desig
    git clone https://github.com/alixahedi/i2c-lcd-stm32.git
    ```
 
-2. **Add Files to Project**: Copy `i2c-lcd.c` and `i2c-lcd.h` into your project's source and header directories, respectively.
+2. **Add Files to Project**: Copy `i2clcd.c` and `i2clcd.h` into your project's source and header directories, respectively.
 
-3. **Include Header File**: Include the `i2c-lcd.h` in your main program or wherever you plan to use the LCD functions.
+3. **Include Header File**: Include the `i2clcd.h` in your main program or wherever you plan to use the LCD functions.
    ```c
-   #include "i2c-lcd.h"
+   #include "i2clcd.h"
    ```
 
 4. **Configure I2C Peripheral**: Ensure that the I2C peripheral is initialized using STM32CubeMX or manually in your code.
